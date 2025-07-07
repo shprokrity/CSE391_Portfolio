@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumaya Hasan Prokrity - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SUMAYA HASAN PROKRITY</h1>
+        <img src="images/profile.jpg" alt="Sumaya Hasan Prokrity" class="profile-img">
+        <nav>
+            <ul>
+                <li><a href="#personal-info">Personal Info</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="hobbies.html">My Activities</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+        <div class="header-quote">
+            <blockquote>
+                "Jodi tor dak shune keu na ashe, tobe ekla cholo re"
+                <cite>- Rabindranath Thakur</cite>
+            </blockquote>
+        </div>
+
+    </header>
+
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p><strong>Phone:</strong> +8801639-660001</p>
+        <p><strong>Email:</strong> sumayahasanprokitty@gmail.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/shprokitty" target="_blank">github.com/shprokitty</a></p>
+        <p><strong>Portfolio:</strong> <a href="https://portfolio-of-prokrity.vercel.app/" target="_blank">portfolio-of-prokitty.vercel.app</a></p>
+        
+        <h3>Profile</h3>
+        <p>Tend to work in such an environment where I can improve myself in the Organizational area and where my creativity can be effectively utilized in an honest way. To build a career in the field of work where I can use my talent to achieve organizational goals and extend my learning curve.</p>
+        
+        <h3>Languages</h3>
+        <ul>
+            <li>English</li>
+            <li>Bangla</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Period</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in CSE</td>
+                <td>BRAC University</td>
+                <td>2021 - Present</td>
+            </tr>
+            <tr>
+                <td>H.S.C</td>
+                <td>Begum Badrunnesa Govt. Girls' College</td>
+                <td>2017-2020</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="expertise">
+        <h2>Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>C</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>Flask</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Communication Skills</li>
+                    <li>Basic Kali Linux</li>
+                    <li>MS Office</li>
+                    <li>Google Workspace</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p>Check out <a href="https://www.bracu.ac.bd" target="_blank" class="university-link" title="BRAC University">
+            <img src="images\bracu.png" alt="BRAC University" class="university-logo">
+        </a> where I study.</p>
+        <p>Join our class discussions on <a href="https://discord.gg/3MT38292" target="_blank" title="CSE 391 Discord">
+            <img src="images\Discord.png" alt="CSE 391 Discord" class="discord-logo"></a></p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <h3>Bangladesh Council of Scientific and Industrial Research</h3>
+            <p class="position">Research Intern</p>
+            <p class="duration">Feb 2025 - Present</p>
+            <p>The Bangladesh Council of Scientific and Industrial Research (BCSIR) is a government body founded in 1973 to promote scientific and industrial research. It focuses on areas like biotechnology, renewable energy, and food science.</p>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Neurochip Industries Limited</h3>
+            <p class="position">Software Engineer Intern</p>
+            <p class="duration">Dec 2024 - Present</p>
+            <p>Neurochip Industries Limited offers innovative IT solutions for global enterprises, founded on excellence, innovation, and integrity. We empower businesses to leverage technology for success in today's dynamic marketplace.</p>
+        </div>
+        
+        <div class="experience-item">
+            <h3>BRAC University Computer Club (BUCC)</h3>
+            <p class="position">Vice-President</p>
+            <p>The BRAC University Computer Club (BUCC) is a student-led organization that fosters a community of tech enthusiasts, offering opportunities to explore software development, web design, and data science.</p>
+        </div>
+        
+        <div class="experience-item">
+            <h3>BRAC University MONON</h3>
+            <p class="position">General Member</p>
+            <p>BRAC University MONON is a cross cultural platform promoting creativity, self-expression, and emotional well-being through music, art, literature, and mental health initiatives.</p>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Page location: <span id="location"></span></p>
+        <p>Last modified: <span id="last-modified"></span></p>
+        <p>&copy; 2023 Sumaya Hasan Prokrity. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
